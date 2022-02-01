@@ -2,7 +2,8 @@
     background-color: rgb(206, 168, 241);
     text-align: center;
     z-index: 999;
-    
+    position: fixed;
+    top: 0;
 }
 
 #main-div{
