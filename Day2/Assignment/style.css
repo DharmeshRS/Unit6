@@ -1,0 +1,16 @@
+#main-div{
+    min-width: 20rem;
+    width: 70vw;
+    text-align: center;
+    margin: auto;
+}
+
+#main-div > p{
+    background-color: rgb(153, 208, 233);
+    /* width: 300px; */
+    
+}
+
+img{
+    width: 130px;
+}

@@ -1,0 +1,91 @@
+*{
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+nav{
+    font-size: 2rem;
+    background-image: url('https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png'); 
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+nav ul li {
+    cursor: pointer;
+    padding: 0.5rem;
+    flex:auto;
+    text-align: center;
+}
+
+    /* nav ul li:hover{
+        background-color: bisque;
+        color:black;  
+    } */
+.nav-signin{
+    color: white;
+    font-size: 20px;
+    margin-top: 11px;
+}
+
+
+.logo{
+    width: 100px;
+    /* margin-left: -100%; */
+    margin-top: 3%;
+}
+
+/* .navbar{
+    background-image: url('https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png');
+} */
+.btn {
+    background-color: #3bc987; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius:4px;
+  }
+
+  .violet{
+      background-color: #6432F9;
+  }
+  .searchbar{
+    padding: 3%;
+    /* margin-right: 100%;
+    padding-right: 200%;*/
+    outline: hidden;
+    width:  100% ;
+    border-style: hidden;
+}
+.searchbar:focus{
+    border: hidden;
+   
+}
+
+.award-icon{
+    margin-top: 5px;
+    color: white;
+    width: 35px;
+    color: white;
+}
+
+
+
+@media all and (max-width:475px){
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        text-align: center;
+    }
+    .searchbar{
+        display: none;
+    }
+}

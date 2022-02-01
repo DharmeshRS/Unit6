@@ -1,0 +1,10 @@
+client id=dbe7847ded60ef6
+client secret=0506e083b80cef0d396e3205bcdd96bcc9de21a5
+callback-url=https://www.getpostman.com/oauth2/callback
+Auth URL = https://api.imgur.com/oauth2/authorize
+access Token URL = https://api.imgur.com/oauth2/token
+token name=imgur postman
+username=Dharmesh1234/@@Dharmesh@123
+
+
+console.log(result.data[0].images[0].link);

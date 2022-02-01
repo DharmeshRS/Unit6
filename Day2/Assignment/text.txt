@@ -1,0 +1,8 @@
+api=
+https://api.themoviedb.org/3/search/movie?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb&query=hindi&page=2
+
+for img=
+https://image.tmdb.org/t/p/w500//s3Yk6VmYzO4o3Kn9v2OVbAaaudi.jpg
+
+
+api key :203901e29325be3b9b64b6149004002d

@@ -1,0 +1,51 @@
+.navbar{
+    top:0;
+    display: flex;
+    max-width: 1350px;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    line-height: 40px;
+    color: white;
+    background-image: url('https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png');
+}
+
+.logo{
+    width: 100px;
+    /* margin-left: -100%; */
+    margin-top: 5%;
+}
+
+.newpost-button{
+    background-color: rgb(78, 241, 113);
+    border: none;
+    color: white;
+    padding: 5px;
+    
+}
+.newpost_img{
+    margin-top: 5%;
+}
+
+.searchbar{
+    padding: 3%;
+    margin-right: 100%;
+    padding-right: 200%;
+    margin-top:10px;
+}
+/* Style buttons */
+.btn {
+    background-color: #3bc987; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 20px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin-top: 6px;
+    border-radius:4px;
+    margin-left:-120px ;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #63f5b1;
+  }
